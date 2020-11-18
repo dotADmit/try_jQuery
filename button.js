@@ -1,11 +1,8 @@
-var hello = document.getElementById("hello");
-var btn = document.getElementById("btn");
-
-btn.onclick = function () {
-    if (hello.textContent === "Hello, World!")
-        $("#hello").html("Bye");
-        else
-        hello.innerHTML = "Hello, World!";
-}
-
-// $("#hello").html("Bye");
+$(function () {
+    $("#btn").click(function () {
+        $("#hello").text() === "Hello, World!" 
+            ? $("#hello").text("Bye!")
+            : $("#hello").text("Hello, World!");
+        $("#btn").toggleClass("color");
+    });
+});

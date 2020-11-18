@@ -9,13 +9,10 @@
 </head>
 
 <body>
-
-
     <h1 id="hello">Hello, World!</h1>
 
-    <button id="btn">Click!</button>
+    <button id="btn" class="btn">Click!</button>
 
-    <!-- sdff -->
     <h2 id="start">Start coding</h2>
     <!-- <a href="https://www.yandex.ru" target="_blank">and here</a><br> -->
 
@@ -30,6 +27,14 @@
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <script src="button.js"></script>
     <script src="test.js"></script>
+    <script>
+        function send() {
+            $("#d").html("Hello ").append($("#name").val());
+        }
+    </script>
+    <script>
+        $.get( "http://example.com/getForecast.php" );
+    </script>
 </body>
 
 </html>

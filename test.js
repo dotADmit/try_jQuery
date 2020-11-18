@@ -12,7 +12,3 @@ $(function() {
 
     // console.log($("a"));
 });
-
-function send(){
-    $("#d").html("Hello ").append($("#name").val());
-}

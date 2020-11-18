@@ -13,3 +13,13 @@ div{
 #name-section {
     margin-top: 50px;
 }
+.btn {
+    background-color: green;
+    color: white;
+    width: 75px;
+    height: 55px;
+    font-size: 25px;
+}
+.color {
+    background-color: red;
+}
